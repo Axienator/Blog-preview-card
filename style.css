@@ -1,0 +1,120 @@
+@import url(https://fonts.google.com/specimen/Figtree);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background:hsl(47, 88%, 63%);
+    color: white;
+}
+
+
+nav {
+
+    background:white;    
+    color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px;
+    border-radius: 8px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 22%;
+    height: 55%;
+    padding: 30px;
+}
+
+ul{
+    
+    font-family: Figtree;
+    font-size: 16px;
+    list-style: none;
+}
+
+/*img*/
+li:first-child{
+    position: absolute;
+    left: 15%;
+    top: 5%
+}
+/*img*/
+li:nth-child(2){
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+/*Learning*/
+li:nth-child(4){
+    font: bold 20px Figtree, sans-serif;
+    text-align: center;
+    width: 6rem;
+    height: 1.7rem;
+    border-radius: 5px;
+    background: hsl(47, 88%, 63%);
+    color: black;
+    position: absolute;
+    top: 15.5rem;
+    left: 2rem;
+}
+
+/*Published 21 Dec 2023*/
+li:nth-child(5){
+    font: semi-bold 15px Figtree, sans-serif;
+    text-align: center;
+    width: 10rem;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 18rem;
+    left: 1.5rem;
+}
+
+/*HTML & CSS foundations*/
+li:nth-child(6){
+    font: bold 20px Figtree, sans-serif;
+    text-align: center;
+    width: 20rem;
+    border-radius: 5px;
+    color: black;
+    position: absolute;
+    top: 20rem;
+    left: -0.8rem;
+}
+/*These languages are the backbone of every website, defining structure, content, and presentation.*/
+li:nth-child(7){
+    font: 16px Figtree, sans-serif;
+    word-spacing: 0.5rem;
+    text-align: start;
+    width: 26rem;
+    border-radius: 5px;
+    color: rgb(100, 95, 95);
+    position: absolute;
+    top: 22.5rem;
+    left: 1.7rem;
+}
+/*Greg Hooper*/
+li:nth-child(8){
+    font: bold 15px Figtree, sans-serif;
+    text-align: center;
+    width: 10rem;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 29.5rem;
+    left: 4rem;
+}
+
+
+
+
+
+
